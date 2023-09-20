@@ -1,0 +1,123 @@
+@import "variables";
+@import "fuentes";
+@import "mixin";
+@import "header";
+@import "banner";
+@import "adopciones";
+@import "footer";
+@import "contacto";
+@import "tienda";
+
+
+
+
+body,
+html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+.miLogo {
+    width: 120px;
+}
+
+
+header {
+    border-top: solid 20px #2889c1;
+    border-bottom: solid 20px #2889c1;
+}
+
+
+.miLink {
+    &:hover {
+      background-color: #2889c1;
+      color: #fafafa !important;
+      border-radius: 5px;
+      text-shadow: #2889c1;
+    }
+  }
+
+.nav-item {
+    margin-right: 50px;
+}
+
+.landing {
+    position: relative;
+    height: 100%;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #2889c1;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #333;
+    color: #fafafa;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+/*BOTON WTP*/
+
+.whatsapp-btn {
+    width: 60px;
+    position: fixed;
+    bottom: 15px;
+    right: 50px;
+    object-fit: contain;
+    
+
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

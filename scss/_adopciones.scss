@@ -1,0 +1,109 @@
+
+
+
+
+.adopciones {
+    text-align: center;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    background-image: url(/fondoadopciones/symbol-scatter-haikei.png);
+}
+
+
+.adopciones p {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+.contenedorMascotas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-image: url('/fondoadopciones/symbol-scatter-haikei.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.adopciones {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+  
+
+    
+
+    img {
+        max-width: 100%;
+        filter: grayscale(90%);
+
+        &:hover {
+            filter: grayscale(0%);
+        }
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    button {
+        background-color: #7AB730;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin-top: 10px;
+    
+
+        &:hover {
+            background-color: #28a745;
+        }
+    }
+}
+
+    /*RESPONSIVE*/
+
+@media (max-width:1023px) {
+    .mascota {
+        margin: 5vh;
+        font-size: 2rem;
+    }
+
+    .mascota h3,
+    .mascota p {
+        font-size: inherit;
+    }
+
+    .contenedorMascotas {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .contenedorMascotas {
+        grid-template-columns: 1fr;
+    }
+}

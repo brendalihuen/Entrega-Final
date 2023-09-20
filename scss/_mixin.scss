@@ -1,0 +1,18 @@
+@mixin botonProductos {
+    padding: 10px;
+    background-color: #2ecc71;
+    color: #fafafa;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    display: grid;
+}
+
+
+
+@mixin colorAzulFondo {
+    background-color: #2889c1;
+}

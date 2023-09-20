@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+.adopciones {
+  text-align: center;
+  margin: 10px;
+  border-bottom: 1px solid black;
+  background-image: url(/fondoadopciones/symbol-scatter-haikei.png);
+}
+
+.adopciones p {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+}
+
+.contenedorMascotas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-image: url("/fondoadopciones/symbol-scatter-haikei.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.adopciones {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.mascota {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+.mascota img {
+  max-width: 100%;
+  filter: grayscale(90%);
+}
+.mascota img:hover {
+  filter: grayscale(0%);
+}
+.mascota p {
+  margin: 10px 0;
+}
+.mascota button {
+  background-color: #7AB730;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.mascota button:hover {
+  background-color: #28a745;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 1023px) {
+  .mascota {
+    margin: 5vh;
+    font-size: 2rem;
+  }
+  .mascota h3,
+  .mascota p {
+    font-size: inherit;
+  }
+  .contenedorMascotas {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .contenedorMascotas {
+    grid-template-columns: 1fr;
+  }
+}
+/* Footer */
+.footer {
+  background-color: #2889c1;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footerContenido {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.infoContacto p,
+.redesSociales a {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+.redesSociales a {
+  color: #e4e7de;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.redesSociales a:hover {
+  color: #fafafa;
+}
+
+.footer i {
+  margin-right: 10px;
+}
+
+/*CONTACTO*/
+.mi-formulario {
+  max-width: 400px;
+  margin: 50px auto;
+}
+.mi-formulario label {
+  display: block;
+  margin-bottom: 5px;
+}
+.mi-formulario input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.mi-formulario input:focus {
+  outline: none;
+  border-color: #333;
+}
+.mi-formulario input[type=submit] {
+  background-color: #333;
+  color: #f1eaea;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.mi-formulario input[type=submit]:hover {
+  background-color: #555;
+}
+
+/*TIENDA*/
+main .contenedorProductos {
+  display: grid;
+  gap: 60px;
+  margin: 36px 0;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 30px;
+  background-image: url("/fondoadopciones/symbol-scatter-haikei.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 30px;
+  background-color: white;
+}
+
+.imagenProducto {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/*USANDO MIXIN*/
+.botonProducto {
+  padding: 10px;
+  background-color: #2ecc71;
+  color: #fafafa;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin: 10px;
+  display: grid;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.miLogo {
+  width: 120px;
+}
+
+header {
+  border-top: solid 20px #2889c1;
+  border-bottom: solid 20px #2889c1;
+}
+
+.miLink:hover {
+  background-color: #2889c1;
+  color: #fafafa !important;
+  border-radius: 5px;
+  text-shadow: #2889c1;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.landing {
+  position: relative;
+  height: 100%;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contenido {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #2889c1;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  background-color: #333;
+  color: #fafafa;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.boton:hover {
+  background-color: #555;
+}
+
+/*BOTON WTP*/
+.whatsapp-btn {
+  width: 60px;
+  position: fixed;
+  bottom: 15px;
+  right: 50px;
+  object-fit: contain;
+}
+.whatsapp-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.whatsapp-btn img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=estilo.css.map */
