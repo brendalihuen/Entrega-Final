@@ -420,6 +420,7 @@ html {
     grid-template-columns: 1fr;
     gap: 20px;
     margin: 20px;
+    overflow-x: hidden;
   }
 }
 /*TIENDA*/
@@ -453,6 +454,7 @@ html {
 @media (max-width: 768px) {
   .contenedorMascotas {
     grid-template-columns: 1fr;
+    overflow-x: hidden;
   }
 }
 /*BOTON WTP*/
