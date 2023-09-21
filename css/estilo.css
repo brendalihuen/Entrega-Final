@@ -428,12 +428,14 @@ main .contenedorPersonas {
   .contenedorPersonas {
     grid-template-columns: 1fr;
     overflow-x: hidden;
+    background-image: url(/fondoadopciones/symbol-scatter-haikei.png);
   }
 }
 /*TIENDA*/
 @media (max-width: 768px) {
   .productos {
     grid-template-columns: 1fr;
+    background-image: url(/fondoadopciones/symbol-scatter-haikei.png);
   }
 }
 /*CONTACTO*/
@@ -462,6 +464,7 @@ main .contenedorPersonas {
   .contenedorMascotas {
     grid-template-columns: 1fr;
     overflow-x: hidden;
+    background-image: url(/fondoadopciones/symbol-scatter-haikei.png);
   }
 }
 /*BOTON WTP*/
