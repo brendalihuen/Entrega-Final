@@ -9,7 +9,7 @@ main .contenedorProductos {
 
 .productos {
     display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 30px; // Espacio entre los productos
     background-image: url('/fondoadopciones/symbol-scatter-haikei.png'); 
     background-repeat: no-repeat;
@@ -38,7 +38,10 @@ main .contenedorProductos {
 
 }
 
+
 /*USANDO MIXIN*/
 .botonProducto {
     @include botonProductos
 }
+
+

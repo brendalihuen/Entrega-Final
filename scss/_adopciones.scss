@@ -1,5 +1,13 @@
 
-
+main .contenedorMascotas  {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    background-image: url(/fondoadopciones/symbol-scatter-haikei.png);
+}
 
 
 .adopciones {
@@ -12,13 +20,11 @@
 
 .adopciones p {
     font-size: 20px;
-    color: #fff;
+    color: $color-blanco;
     padding: 10px;
+    font-family: "Roboto" , sans-serif;
     
 }
-
-
-
 
 
 
@@ -33,7 +39,7 @@
 }
 
 .adopciones {
-    border: 1px solid #ccc;
+    border: 1px solid $color-border;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -44,8 +50,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    border: 1px solid #ccc;
+    background-color: $color-blanco;
+    border: 1px solid $color-border;
     padding: 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     margin: 10px;
@@ -68,7 +74,7 @@
 
     button {
         background-color: #7AB730;
-        color: #fff;
+        color: $color-blanco;
         border: none;
         padding: 10px 20px;
         font-size: 1rem;
@@ -82,28 +88,3 @@
     }
 }
 
-    /*RESPONSIVE*/
-
-@media (max-width:1023px) {
-    .mascota {
-        margin: 5vh;
-        font-size: 2rem;
-    }
-
-    .mascota h3,
-    .mascota p {
-        font-size: inherit;
-    }
-
-    .contenedorMascotas {
-        grid-template-columns: 1fr 1fr;
-    }
-
-}
-
-@media (max-width:768px) {
-
-    .contenedorMascotas {
-        grid-template-columns: 1fr;
-    }
-}

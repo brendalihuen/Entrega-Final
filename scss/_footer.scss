@@ -1,41 +1,38 @@
-
-/* Footer */
 .footer {
-    background-color: #2889c1;
-    color: #fff;
-    padding: 20px 0;
+    background-color: $color-azul;
+    color: $color-blanco;
+    padding: 20px 10px; /* Ajuste del espacio interno */
+    text-align: center; /* Centrar el contenido */
 }
 
 .footerContenido {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px; /* Ajuste del espacio interno */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
 }
 
 .footer h4 {
-    font-size: 1.5rem;
+    font-size: 1.2rem; /* Tamaño de fuente ajustado para móviles */
     margin-bottom: 10px;
 }
 
 .infoContacto p,
 .redesSociales a {
     margin: 5px 0;
-    font-size: 1.2rem;
+    font-size: 1rem; /* Tamaño de fuente ajustado para móviles */
 }
 
 .redesSociales a {
     color: #e4e7de;
     text-decoration: none;
     margin-right: 10px;
-    font-size: 1.5rem;
+    font-size: 1.2rem; /* Tamaño de fuente ajustado para móviles */
 }
 
 .redesSociales a:hover {
-    color: #fafafa;
+    color: $color-blanco;
 }
-
 
 .footer i {
     margin-right: 10px;

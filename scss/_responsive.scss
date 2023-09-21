@@ -1,0 +1,75 @@
+/*NOSOTROS*/
+
+@media (max-width:1023px) {
+    .persona {
+        margin: 5vh;
+        font-size: 2rem;
+    }
+
+    .persona h3,
+    .personas p {
+        font-size: inherit;
+    }
+
+    .contenedorPersonas {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .contenedorPersonas {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/*TIENDA*/
+
+@media (max-width:768px) {
+
+    .productos {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/*CONTACTO*/
+
+@media (max-width:768px) {
+
+    .container {
+        grid-template-columns: 1fr;
+        max-width: 1200px;
+        margin: 50px;
+    }
+}
+
+
+/*ADOPCIONES*/
+
+@media (max-width:1023px) {
+    .mascota {
+        margin: 5vh;
+        font-size: 2rem;
+    }
+
+    .mascota h3,
+    .mascota p {
+        font-size: inherit;
+    }
+
+    .contenedorMascotas {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .contenedorMascotas {
+        grid-template-columns: 1fr;
+    }
+}

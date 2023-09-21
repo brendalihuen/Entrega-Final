@@ -1,0 +1,88 @@
+.miLogo {
+    width: 120px;
+}
+
+
+header {
+    border-top: solid 20px $color-azul;
+    border-bottom: solid 20px $color-azul;
+}
+
+
+.miLink {
+    &:hover {
+        background-color: $color-azul;
+        color: $color-blanco !important;
+        border-radius: 5px;
+        text-shadow: $color-azul;
+    }
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+.landing {
+    position: relative;
+    height: 100%;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #f0f3f4;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    position: relative;
+  
+  
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      background-color: rgba(14, 15, 18, 0.5);
+      z-index: -1;
+  
+  
+    }
+  }
+  
+
+p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #333;
+    color: $color-blanco;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #555;
+}
