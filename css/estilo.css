@@ -133,6 +133,8 @@ main .contenedorMascotas {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  overflow-x: hidden;
+  justify-content: center;
 }
 
 .adopciones {
@@ -186,8 +188,8 @@ main .contenedorMascotas {
 .footerContenido {
   max-width: 100%;
   margin: 0 auto;
-  padding: 0 10px; /* Ajuste del espacio interno */
-  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 .footer h4 {
@@ -198,7 +200,8 @@ main .contenedorMascotas {
 .infoContacto p,
 .redesSociales a {
   margin: 5px 0;
-  font-size: 1rem; /* Tamaño de fuente ajustado para móviles */
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 .redesSociales a {
@@ -342,16 +345,6 @@ html {
   font-family: Arial, sans-serif;
 }
 
-main .contenedorPersonas {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  margin: 0;
-  background-image: url(/fondoadopciones/symbol-scatter-haikei.png);
-}
-
 .personas {
   text-align: center;
   margin: 10px;
@@ -375,6 +368,8 @@ main .contenedorPersonas {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  overflow-x: hidden;
+  justify-content: center;
 }
 
 .persona {
@@ -423,6 +418,8 @@ main .contenedorPersonas {
 @media (max-width: 768px) {
   .contenedorPersonas {
     grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 20px;
   }
 }
 /*TIENDA*/
@@ -446,8 +443,8 @@ main .contenedorPersonas {
     font-size: 2rem;
   }
   .mascota h3,
-  .mascota p {
-    font-size: inherit;
+  .contenedorMascota p {
+    font-size: 15px;
   }
   .contenedorMascotas {
     grid-template-columns: 1fr 1fr;

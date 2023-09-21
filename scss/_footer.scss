@@ -8,8 +8,8 @@
 .footerContenido {
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 10px; /* Ajuste del espacio interno */
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    padding: 0 10px; 
+    box-sizing: border-box; 
 }
 
 .footer h4 {
@@ -20,7 +20,8 @@
 .infoContacto p,
 .redesSociales a {
     margin: 5px 0;
-    font-size: 1rem; /* Tamaño de fuente ajustado para móviles */
+    font-size: 1rem;
+    text-decoration: none; 
 }
 
 .redesSociales a {

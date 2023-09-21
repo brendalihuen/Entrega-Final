@@ -1,14 +1,4 @@
 
-main .contenedorPersonas  {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    margin: 0;
-    background-image: url(/fondoadopciones/symbol-scatter-haikei.png);
-}
-
 
 .personas {
     text-align: center;
@@ -37,6 +27,8 @@ main .contenedorPersonas  {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    overflow-x: hidden;
+    justify-content: center;
 }
 
 .persona {
