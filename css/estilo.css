@@ -108,14 +108,14 @@ main .contenedorMascotas {
   align-items: center;
   height: 80vh;
   margin: 0;
-  background-image: url(/fondoadopciones/symbol-scatter-haikei.png);
+  background-image: url(../fondoadopciones/symbol-scatter-haikei.png);
 }
 
 .adopciones {
   text-align: center;
   margin: 10px;
   border-bottom: 1px solid black;
-  background-image: url(/fondoadopciones/symbol-scatter-haikei.png);
+  background-image: url(../fondoadopciones/symbol-scatter-haikei.png);
 }
 
 .adopciones p {
@@ -129,7 +129,7 @@ main .contenedorMascotas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  background-image: url("/fondoadopciones/symbol-scatter-haikei.png");
+  background-image: url(../fondoadopciones/symbol-scatter-haikei.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -428,14 +428,14 @@ main .contenedorPersonas {
   .contenedorPersonas {
     grid-template-columns: 1fr;
     overflow-x: hidden;
-    background-image: url(/fondoadopciones/symbol-scatter-haikei.png);
+    background-image: url(../fondoadopciones/symbol-scatter-haikei.png);
   }
 }
 /*TIENDA*/
 @media (max-width: 768px) {
   .productos {
     grid-template-columns: 1fr;
-    background-image: url(/fondoadopciones/symbol-scatter-haikei.png);
+    background-image: url(../fondoadopciones/symbol-scatter-haikei.png);
   }
 }
 /*CONTACTO*/
