@@ -410,7 +410,7 @@ main .contenedorPersonas {
   margin: 10px 0;
 }
 
-/*ADOPCIONES*/
+/*Nosotros*/
 @media (max-width: 1023px) {
   .persona {
     margin: 5vh;
@@ -428,14 +428,15 @@ main .contenedorPersonas {
   .contenedorPersonas {
     grid-template-columns: 1fr;
     overflow-x: hidden;
-    background-image: url(../fondoadopciones/symbol-scatter-haikei.png);
+    overflow-y: hidden;
+    background-image: url("../fondoadopciones/symbol-scatter-haikei.png");
   }
 }
 /*TIENDA*/
 @media (max-width: 768px) {
   .productos {
     grid-template-columns: 1fr;
-    background-image: url(../fondoadopciones/symbol-scatter-haikei.png);
+    background-image: url("../fondoadopciones/symbol-scatter-haikei.png");
   }
 }
 /*CONTACTO*/
@@ -453,7 +454,7 @@ main .contenedorPersonas {
     font-size: 2rem;
   }
   .mascota h3,
-  .contenedorMascota p {
+  .contenedorMascotas p {
     font-size: 15px;
   }
   .contenedorMascotas {
@@ -464,7 +465,8 @@ main .contenedorPersonas {
   .contenedorMascotas {
     grid-template-columns: 1fr;
     overflow-x: hidden;
-    background-image: url(../fondoadopciones/symbol-scatter-haikei.png);
+    overflow-y: hidden;
+    background-image: url("../fondoadopciones/symbol-scatter-haikei.png");
   }
 }
 /*BOTON WTP*/

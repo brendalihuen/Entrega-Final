@@ -1,4 +1,4 @@
-/*ADOPCIONES*/
+/*Nosotros*/
 
 @media (max-width:1023px) {
     .persona {
@@ -22,7 +22,8 @@
     .contenedorPersonas {
         grid-template-columns: 1fr;
         overflow-x: hidden;
-        background-image: url(../fondoadopciones/symbol-scatter-haikei.png);
+        overflow-y: hidden;
+        background-image: url('../fondoadopciones/symbol-scatter-haikei.png');
     }
 }
 
@@ -34,8 +35,9 @@
 
     .productos {
         grid-template-columns: 1fr;
-        background-image: url(../fondoadopciones/symbol-scatter-haikei.png)
+        background-image: url('../fondoadopciones/symbol-scatter-haikei.png');
     }
+    
 }
 
 
@@ -60,7 +62,7 @@
     }
 
     .mascota h3,
-    .contenedorMascota p {
+    .contenedorMascotas p {
         font-size: 15px;
     }
 
@@ -75,6 +77,7 @@
     .contenedorMascotas {
         grid-template-columns: 1fr;
         overflow-x: hidden;
-        background-image: url(../fondoadopciones/symbol-scatter-haikei.png)
+        overflow-y: hidden;
+        background-image: url('../fondoadopciones/symbol-scatter-haikei.png');
     }
 }
