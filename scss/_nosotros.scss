@@ -45,6 +45,8 @@ main .contenedorPersonas  {
     border-radius: 10px;
     padding: 20px;
     text-align: center;
+    overflow: hidden;
+    
 }
 
 .persona {
@@ -57,6 +59,7 @@ main .contenedorPersonas  {
     padding: 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     margin: 10px;
+    overflow: hidden;
   
 
     
